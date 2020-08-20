@@ -4,7 +4,10 @@ source "https://rubygems.org"
 
 gemspec
 
+#gem "appmap"
+
 group :development do
+
   gem "coveralls", require: false
   gem "mocha", "~> 0.13.2"
   gem "rack", ">= 2.0.6"

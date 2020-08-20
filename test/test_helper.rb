@@ -3,6 +3,8 @@
 require "coveralls"
 Coveralls.wear!("test_frameworks")
 
+require "appmap/minitest"
+
 require "stripe"
 require "test/unit"
 require "mocha/setup"
