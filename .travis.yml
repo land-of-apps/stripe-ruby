@@ -1,3 +1,6 @@
+# Turn on validation, so we can use import:
+version: ~> 1.0
+
 language: ruby
 
 rvm:
@@ -37,4 +40,4 @@ before_install:
   - export PATH="${PATH}:${PWD}/stripe-mock/stripe-mock_${STRIPE_MOCK_VERSION}"
 
 script:
-  - bundle exec rake
+  - bundle exec rake test
